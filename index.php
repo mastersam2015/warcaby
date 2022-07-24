@@ -514,7 +514,7 @@ function laduj(){
 });
 if($('#ready').val()==1){
 	
-	$('#tekst').val('ready')
+	$('#tekst').val('ready');
 	
 	
 	
