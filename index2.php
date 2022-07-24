@@ -102,11 +102,11 @@ py=b;
 
 			if (($("#k"+poml+"a"+pomk).val()=="b" && $("#k"+poml2+"a"+pomk2).val()=="x"  && $("#k"+poml2+"a"+pomk2).val()=="x")||( $("#k"+pom2l+"a"+pom2k).val()=="b" && $("#k"+pom2l2+"a"+pom2k2).val()=="x" && $("#k"+pom2l2+"a"+pom2k2).val()=="x")||($("#k"+pom3l+"a"+pom3k).val()=="b" && $("#k"+pom3l2+"a"+pom3k2).val()=="x" && $("#k"+pom3l2+"a"+pom3k2).val()=="x")||($("#k"+pom4l+"a"+pom4k).val()=="b" && $("#k"+pom4l2+"a"+pom4k2).val()=="x" && $("#k"+pom4l2+"a"+pom4k2).val()=="x") ){
 			
-			window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
+			location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
 			}else{
 				
 				
-				window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);
+				location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);
 			}
 		}
 		//alert(pionki[i].charAt(2)+" "+pionki[i].charAt(4) +" "+px+" "+py+" "+a+" "+b);
@@ -114,11 +114,11 @@ py=b;
 		//alert("a");	
 		if (($("#k"+poml+"a"+pomk).val()=="b" && $("#k"+poml2+"a"+pomk2).val()=="x"  && $("#k"+poml2+"a"+pomk2).val()=="x")||( $("#k"+pom2l+"a"+pom2k).val()=="b" && $("#k"+pom2l2+"a"+pom2k2).val()=="x" && $("#k"+pom2l2+"a"+pom2k2).val()=="x")||($("#k"+pom3l+"a"+pom3k).val()=="b" && $("#k"+pom3l2+"a"+pom3k2).val()=="x" && $("#k"+pom3l2+"a"+pom3k2).val()=="x")||($("#k"+pom4l+"a"+pom4k).val()=="b" && $("#k"+pom4l2+"a"+pom4k2).val()=="x" && $("#k"+pom4l2+"a"+pom4k2).val()=="x") ){
 			
-	window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
+	location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
 		}else{
 			
 			
-		window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);	
+		location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);	
 		}
 		
 		}
@@ -126,9 +126,9 @@ py=b;
 		if(pionki[i].charAt(0)=="b" && (pionki[i].charAt(2)==px+1 && pionki[i].charAt(4)==py-1) && (px+2==a && py-2==b)){
 			if (($("#k"+poml+"a"+pomk).val()=="b" && $("#k"+poml2+"a"+pomk2).val()=="x"  && $("#k"+poml2+"a"+pomk2).val()=="x")||( $("#k"+pom2l+"a"+pom2k).val()=="b" && $("#k"+pom2l2+"a"+pom2k2).val()=="x" && $("#k"+pom2l2+"a"+pom2k2).val()=="x")||($("#k"+pom3l+"a"+pom3k).val()=="b" && $("#k"+pom3l2+"a"+pom3k2).val()=="x" && $("#k"+pom3l2+"a"+pom3k2).val()=="x")||($("#k"+pom4l+"a"+pom4k).val()=="b" && $("#k"+pom4l2+"a"+pom4k2).val()=="x" && $("#k"+pom4l2+"a"+pom4k2).val()=="x") ){
 		
-			window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
+			location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
 			}else{
-				window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);	
+				location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);	
 				
 			}
 		}
@@ -136,10 +136,10 @@ py=b;
 			
 			if (($("#k"+poml+"a"+pomk).val()=="b" && $("#k"+poml2+"a"+pomk2).val()=="x"  && $("#k"+poml2+"a"+pomk2).val()=="x")||( $("#k"+pom2l+"a"+pom2k).val()=="b" && $("#k"+pom2l2+"a"+pom2k2).val()=="x" && $("#k"+pom2l2+"a"+pom2k2).val()=="x")||($("#k"+pom3l+"a"+pom3k).val()=="b" && $("#k"+pom3l2+"a"+pom3k2).val()=="x" && $("#k"+pom3l2+"a"+pom3k2).val()=="x")||($("#k"+pom4l+"a"+pom4k).val()=="b" && $("#k"+pom4l2+"a"+pom4k2).val()=="x" && $("#k"+pom4l2+"a"+pom4k2).val()=="x") ){
 		
-		window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
+		location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4)+"&reload=1";
 			}else{
 				
-				window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);
+				location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k=b&kasuj=1&kx="+pionki[i].charAt(2)+"&ky="+pionki[i].charAt(4);
 				
 			}
 		}
@@ -148,7 +148,7 @@ py=b;
 		if((a-1==px &&  b-1==py)||(a-1==px && b+1==py)){
 			
 					
-					window.location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k="+$("#k"+px+"a"+py).val();
+					location.href="index2.php?x="+a+"&y="+b+"&px="+px+"&py="+py+"&k="+$("#k"+px+"a"+py).val();
 					
 				
 		}
@@ -416,7 +416,7 @@ for(var j=iy;j<dolprawy.charAt(2);j++){
 	for(var i=ix;i<dolprawy.charAt(0);i++){
 		if(iy-j==ix-i){
 if(i==a && j==b){
-window.location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=1&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
+location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=1&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
 	}
 		}	
 		
@@ -430,7 +430,7 @@ for(var j=iy;j>goralewa.charAt(2);j--){
 		if(iy-j==ix-i){
 			//$("#"+i+"a"+j).html("b");
 if(i==a && j==b){
-	window.location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=2&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
+	location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=2&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
 	}
 		}	
 		
@@ -451,7 +451,7 @@ for(var j=iy;j<goraprawa.charAt(2);j++){
 			//$("#"+i+"a"+j).html("www");
 if(i==a && j==b){
 	
-	window.location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=3&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
+	location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=3&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
 	//$("#"+i+"a"+j).html(i+" "+j);
 }
 		}	
@@ -467,7 +467,7 @@ for(var j=iy;j>dollewy.charAt(2);j--){
 		if(iy-j==i-ix){
 			//$("#"+i+"a"+j).html("p");
 if(i==a && j==b){
-	window.location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=4&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
+	location.href="index2.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=4&staryx="+px+"&staryy="+py+"&bicie="+pomoc;
 	//$("#"+i+"a"+j).html(i+" "+j);
 	}
 		}	
@@ -482,7 +482,7 @@ for(var j=iy;j<dollewy.charAt(2);j++){
 		if(iy-i==ix-j){
 			$("#"+i+"a"+j).html("p");
 if(j==a && i==b){
-	window.location.href="index.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=2&staryx="+px+"&staryy="+py;
+	location.href="index.php?dx="+a+"&dy="+b+"&dpx="+px+"&dpy="+py+"&cw=2&staryx="+px+"&staryy="+py;
 	}
 		}	
 		
@@ -502,22 +502,25 @@ console.log(dollewy + " ");
 
 function laduj(){
 	
-	$.get( "load.txt", function( data ) {
+	last_update = new Date().getTime();
+	$.get( "load.txt", { lastfetch : last_update } , function( data ) {
  
-		  	if(data==3){
-				window.location.href="index2.php?load=1";
+		  	if(parseInt(data)==3){
+				location.href="index2.php?load=1";
 				}
 	
 });
+
+
 if($('#ready').val()==1){
 	
-	$('#tekst').val('ready')
+	$('#tekst').val('ready');
 	
 	
 	
 }
 }
-setInterval(laduj, 1000);
+setInterval("laduj()", 1000);
 
 
 </script>
@@ -751,7 +754,7 @@ czarne
 
 if($_GET["load"]==1){
 	
-	echo "<input type='button' value='reset' onclick='window.location.href=\"index2.php?load=1\";'>";
+	echo "<input type='button' value='reset' onclick='location.href=\"index2.php?load=1\";'>";
 	
 }
 
@@ -1038,7 +1041,7 @@ function funkcja(){
 </script>
 <?
 $load=$_GET["load"];
-if($load==2){
+if($load==1){
 	
 	$plik = fopen('load.txt','r');
 $tekst5=fgets($plik, 10000);
@@ -1054,8 +1057,10 @@ $plik2 = fopen('load.txt','w');
 fputs($plik2, $huhu);
 fclose($plik2);
 	
-	
-}else{
+	echo "<script>$('#ready').val('1');</script>";
+}
+
+if($load==2){
 	
 		$plik = fopen('load.txt','r');
 $tekst5=fgets($plik, 10000);
@@ -1070,7 +1075,10 @@ $huhu="1";
 $plik2 = fopen('load.txt','w');
 fputs($plik2, $huhu);
 fclose($plik2);
-	echo "<script>$('#ready').val('1');</script>";
+	
 }
+
+
+
 
 ?>
